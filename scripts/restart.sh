@@ -1,3 +1,3 @@
 #!/bin/bash
 
-lsof -nP -iTCP:5000 -sTCP:LISTEN -t | xargs -r kill -9
+supervisorctl -c /source/openclaw_supervisord.conf restart openclaw >> /app/work/logs/bypass/dev.log 2>&1

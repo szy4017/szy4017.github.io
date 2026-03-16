@@ -63,7 +63,7 @@
   "gateway": {
     "auth": {
       "mode": "token",
-      "token": "a1b858a3-c810-4b08-8f32-5025fc2169d7"
+      "token": "5bc30c67-9abb-4fb0-ba62-992f7da0996f"
     },
     "bind": "loopback",
     "controlUi": {
