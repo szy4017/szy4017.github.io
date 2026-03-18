@@ -1,0 +1,51 @@
+// 深色科技风样式
+@import "minima";
+
+$bg-primary: #0a0e27;
+$bg-secondary: #1a1f3a;
+$bg-card: #161a2f;
+$accent-primary: #00f0ff;
+$accent-secondary: #7000ff;
+$text-primary: #e0e6ed;
+$text-secondary: #94a3b8;
+
+body {
+  background: linear-gradient(135deg, $bg-primary 0%, $bg-secondary 100%);
+  color: $text-primary;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 0;
+
+  .avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid $accent-primary;
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.4);
+  }
+
+  .site-title {
+    font-size: 3rem;
+    background: linear-gradient(135deg, $accent-primary 0%, $accent-secondary 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+
+  .skill-tag {
+    padding: 0.5rem 1.25rem;
+    background: rgba(0, 240, 255, 0.1);
+    border: 1px solid rgba(0, 240, 255, 0.2);
+    border-radius: 20px;
+    color: $accent-primary;
+  }
+}
