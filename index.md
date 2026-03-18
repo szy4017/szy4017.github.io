@@ -100,8 +100,10 @@ title: 施振宇 | Home
   <h2>About Me</h2>
   <div class="about-content">
     <p>你好，我是施振宇 👋</p>
+    <p><strong>工学博士</strong> | 浙江大学 | 控制科学与工程</p>
+    <p><strong>Research Focus</strong> | 自动驾驶 Autonomous Driving</p>
     <p>这里是我的个人空间，我会在这里分享我的项目和思考。</p>
-    <p>更多内容正在筹备中，敬请期待...</p>
+    <p>Welcome to my personal space where I share my projects and insights.</p>
   </div>
 </div>
 
