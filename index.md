@@ -49,6 +49,31 @@ title: 施振宇 | Home
     color: #00d4aa;
     font-size: 0.9rem;
   }
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .social-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+  }
+  .social-links a:hover {
+    background: rgba(255,255,255,0.2);
+  }
+  .social-links .icon {
+    width: 20px;
+    height: 20px;
+  }
 </style>
 
 <div class="hero">
