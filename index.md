@@ -3,9 +3,57 @@ layout: default
 title: 施振宇 | Home
 ---
 
+<style>
+  .hero {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .hero .avatar-container {
+    margin-bottom: 1.5rem;
+  }
+  .hero .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00d4aa;
+    box-shadow: 0 4px 15px rgba(0, 212, 170, 0.3);
+  }
+  .hero .site-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  .hero .site-subtitle {
+    font-size: 1.1rem;
+    color: #94a3b8;
+    margin-bottom: 1.5rem;
+  }
+  .about-section {
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  .skill-tag {
+    padding: 0.4rem 1rem;
+    background: rgba(0, 212, 170, 0.15);
+    border: 1px solid rgba(0, 212, 170, 0.3);
+    border-radius: 20px;
+    color: #00d4aa;
+    font-size: 0.9rem;
+  }
+</style>
+
 <div class="hero">
   <div class="avatar-container">
-    <img src="assets/avatar.png" alt="施振宇" class="avatar">
+    <img src="assets/avatar.png" alt="施振宇" class="avatar" width="150" height="150">
   </div>
   <h1 class="site-title">施振宇</h1>
   <p class="site-subtitle">Developer | Creator | Problem Solver</p>
