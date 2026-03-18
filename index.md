@@ -23,11 +23,15 @@ title: 施振宇 | Home
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     color: #fff;
+    text-align: center;
+    width: 100%;
   }
   .hero .site-subtitle {
     font-size: 1.1rem;
     color: #94a3b8;
     margin-bottom: 1.5rem;
+    text-align: center;
+    width: 100%;
   }
   .about-section {
     background: rgba(255,255,255,0.05);
